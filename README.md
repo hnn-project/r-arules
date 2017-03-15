@@ -43,7 +43,7 @@ tit <- titanic.raw
 head(tit,3)
 ```
 
-|Class|Sex|Age|Survived
+Idx|Class|Sex|Age|Survived
 ---|---|---|---|---|
 1|3rd|Male|Child|No
 2|3rd|Male|Child|No
