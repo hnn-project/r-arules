@@ -22,8 +22,8 @@ The share of A and B traded at the same time is divided by the trading weight at
 = P(A∩B) / A)* P(B|A) : A is the probability that A and B will occur at the same time when A and B are independent events.  
 
 ###R aurles - apriori function Execution code  
-[R code r-arules-script.R](r-arules-script.R)
-[R data file titanic.raw.rdata](data/titanic.raw.rdata)
+[R code r-arules-script.R](r-arules-script.R)  
+[R data file titanic.raw.rdata](data/titanic.raw.rdata)  
 
 ```
 #################################################
@@ -42,11 +42,12 @@ tit <- titanic.raw
 
 head(tit,3)
 ```
-   | Class | Sex  | Age | Survived
-  ---|---|---|---|---|
-    1|3rd|Male|Child|No
-  2|3rd|Male|Child|No
-  3|3rd|Male|Child|No
+
+| Class | Sex  | Age | Survived
+---|---|---|---|---|
+1|3rd|Male|Child|No
+2|3rd|Male|Child|No
+3|3rd|Male|Child|No
 
 ```
 str(tit)  #total 2201 rows, 4 columns
